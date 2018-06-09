@@ -8,9 +8,6 @@ console.log("Listening on Port 3000");
 });
 
 var http = require("http");
-setInterval(function() {
-    http.get("http://zilla-bot-beta.herokuapp.com");
-}, 60000);
 
 const token = require("./Confidential/token.json");
 const pref = "Z!";
