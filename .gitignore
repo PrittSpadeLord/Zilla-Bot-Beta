@@ -1,0 +1,6 @@
+############
+#GIT-IGNORE#
+############
+
+Confidential/
+node_modules/
